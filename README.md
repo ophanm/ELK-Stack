@@ -4,14 +4,14 @@ We've been given a project to create and discuss an ELK Stack via Windows Azure.
 
 The files in this repository were used to configure the network depicted below.
 
-![](Diagrams/Diagram.drawio.pdf)
+<img src=Diagrams/Diagram.drawio.png>
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-  - /Users/angeldanois/ELK-Stack-Project/Ansible/Install-elk.yml.txt
-  - /Users/angeldanois/ELK-Stack-Project/Ansible/install-docker.yml.txt
-  - /Users/angeldanois/ELK-Stack-Project/Ansible/install-metricbeat.yml.txt
-  - /Users/angeldanois/ELK-Stack-Project/Ansible/filebeat-playbook.yml.txt
+  - [Docker Playbook](Ansible/install-docker.yml.txt)
+  - [Elk Playbook](Ansible/Install-elk.yml.txt)
+  - [Metricbeat Playbook](Ansible/install-metricbeat.yml.txt)
+  - [Filebeat Playbook](Ansible/filebeat-playbook.yml.txt)
 
 This document contains the following details:
 - Description of the Topology
@@ -32,9 +32,6 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system metrics.
 - Filebeats watches for specific log files and collects log events.
 - Metricbeat records metrics and statistics from a system and from any services running on that server.
-
-The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
@@ -77,7 +74,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-/Users/angeldanois/Downloads/README/Images/sudo-docker-ps.png
+<img src=Diagrams/sudo-docker-ps.png>
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
