@@ -4,7 +4,7 @@ We've been given a project to create and discuss an ELK Stack via Windows Azure.
 
 The files in this repository were used to configure the network depicted below.
 
-!/Users/angeldanois/ELK-Stack-Project/Diagrams/Diagram.drawio.pdf
+![Diagrams/Diagram.drawio.pdf](https://github.com/ophanm/ELK-Stack/blob/main/Diagrams/Diagram.drawio.pdf)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
